@@ -16,5 +16,6 @@
             "shell": "C:\\Windows\\System32\\bash.exe",
             "label": "WSL Bash"
         }
-    ]
+    ],
+    "python.pythonPath": "C:\\Python\\Python38\\python.exe"
 }
