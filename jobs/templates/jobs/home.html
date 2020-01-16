@@ -1,0 +1,11 @@
+<html>
+    <title>suraj django try</title>
+    <body>
+        <p>i am suraj hai gaich</p>
+        <img class="card-img-top" src="{{ job.image.url}}"/>     
+     {% for job in jobs.all %} 
+     <p>hi i want to show my jobs </p> 
+     <p>{{ jobs.summary }}</p> 
+     {% endfor %}
+    </body>
+</html>
